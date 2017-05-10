@@ -19,7 +19,7 @@ public class DefaultParameterizedTest {
     private double valueTwo;
 
     @Parameterized.Parameters
-    public static Collection<Integer[]> getTestParameters() { // signature must be @Parameters public static Collection, name can be different
+    public static Collection<Integer[]> getTestParameters() { // signature must be @Parameters public static Collection with no arguments, name can be different
         return Arrays.asList(new Integer[][] { // Collection elements must be arrays of identical length
                 {2, 1, 1}, // the array length must match the number of arguments of the constructor
                 {3, 2, 1},
