@@ -1,4 +1,4 @@
-package com.chtuqu.junit_in_action.ch2;
+package com.chtuqu.junit_in_action.ch2.parameterized;
 
 import com.chtuqu.junit_in_action.ch1.Calculator;
 import org.junit.Test;
