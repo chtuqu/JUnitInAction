@@ -1,9 +1,4 @@
-package com.chtuqu.junit_in_action.ch3.impl;
-
-import com.chtuqu.junit_in_action.ch3.Controller;
-import com.chtuqu.junit_in_action.ch3.Request;
-import com.chtuqu.junit_in_action.ch3.RequestHandler;
-import com.chtuqu.junit_in_action.ch3.Response;
+package com.chtuqu.junit_in_action.ch3;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,7 +1,4 @@
-package com.chtuqu.junit_in_action.ch3.impl;
-
-import com.chtuqu.junit_in_action.ch3.Request;
-import com.chtuqu.junit_in_action.ch3.Response;
+package com.chtuqu.junit_in_action.ch3;
 
 public class ErrorResponse implements Response {
 
@@ -19,5 +16,10 @@ public class ErrorResponse implements Response {
 
     public Exception getOriginalException() {
         return originalException;
+    }
+
+    @Override
+    public String getName() {
+        return null; // TODO fix it
     }
 }
